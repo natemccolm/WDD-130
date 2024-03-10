@@ -16,9 +16,9 @@ body {
     --paragraph-font: 'Nunito Sans', sans-serif;
 
     --nav-background-color: var(--accent1-color);
-    --nav-link-color: var(--accent2-color);
-    --nav-hover-link-color: var(--primary-color);
-    --nav-hover-background-color:var(--secondary-color);
+    --nav-link-color: #eef;
+    --nav-hover-link-color:  var(--accent1-color);
+    --nav-hover-background-color:#eef;
 }
 
 body {
@@ -48,6 +48,7 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
+    display:  flex;
 }
 
 nav a {
@@ -64,5 +65,11 @@ nav a:visited {
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.colored-background {
+    background-color: var(--accent2-color);
+    color: #fff;
+    padding: 2em 1em;
 }
