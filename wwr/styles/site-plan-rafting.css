@@ -7,7 +7,7 @@ body{
     padding: 20px;
 }
 
-root{
+:root{
     --primary-color: 267D7B;
     --secondary-color: 23395B;
     --accent1-color: 4E91DD;
