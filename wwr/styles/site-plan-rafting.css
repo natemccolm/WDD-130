@@ -1,34 +1,38 @@
-@import url(https://fonts.google.com/specimen/Roboto);
-@import url(https://fonts.google.com/specimen/Nunito+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
+body {
     font-family: var(--paragraph-font);
     max-width: 960;
     padding: 20px;
 }
 
-:root{
-    --primary-color: 267D7B;
-    --secondary-color: 23395B;
-    --accent1-color: 4E91DD;
-    --accent2-color: 03524E;
+:root {
+    --primary-color: #267D7B;
+    --secondary-color: #23395B;
+    --accent1-color: #4E91DD;
+    --accent2-color: #03524E;
 
-    --heading-font:'Roboto', serif;
-    --paragraph-font:'Nunito Sans';
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Nunito Sans', sans-serif;
 
     --nav-background-color: var(--accent1-color);
     --nav-link-color: var(--accent2-color);
-    --nav-hover-link-color:var(--primary-color)
-    --nav-hover-background-color:var(--secondary-color)
+    --nav-hover-link-color: var(--primary-color);
+    --nav-hover-background-color:var(--secondary-color);
 }
 
-body{
-font-family: var(--paragraph-font);
-max-width: 960px;
-padding: 20px;
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -38,7 +42,7 @@ header {
     background-color: var(--accent1-color);
 }
 
-p{
+p {
     padding: 25px;
 }
 
@@ -47,17 +51,18 @@ nav {
 }
 
 nav a {
-    display:block;
+    display: block;
     color: var(--nav-link-color);
-    text-decoration:none;
+    text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-background-color);
 }
