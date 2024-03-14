@@ -1,7 +1,7 @@
 *{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 nav{
@@ -38,6 +38,7 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -63,7 +64,7 @@ footer{
     text-align: center;
 }
 
-/*Class Selectors */
+/* Class Selectors */
 
 .box{
     margin: 1rem;
