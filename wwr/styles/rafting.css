@@ -1,7 +1,8 @@
-@import url(https://coolors.co/03524e-267d7b-4e91dd-23395b-fffd98);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 :root {
-    --primary-color: #267D7B;
+    --primary-color: #eef;
     --secondary-color: #23395B;
     --accent1-color: #4E91DD;
     --accent2-color: #03524E;
@@ -9,9 +10,88 @@
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Nunito Sans', sans-serif;
 
-    --nav-background-color: var(--accent1-color);
+    --nav-background-color: var(#4E91DD);
     --nav-link-color: #eef;
-    --nav-hover-link-color:  var(--accent1-color);
+    --nav-hover-link-color:  var(#4E91DD);
     --nav-hover-background-color:#eef;
 }
 
+body {
+    max-width: 940px;
+}
+
+.header-links {
+    color: #23395B;
+}
+
+.header-links a{
+    text-align: left;
+}
+
+main {
+    font-size: large;
+    max-width: 800px;
+	margin: 2rem auto;
+	font-family: Roboto, Arial, sans-serif;
+    color:#0d0e0e;
+}
+
+article {
+    position: absolute;
+    float: none;
+    top: 290px;
+    width: 800px;
+    height: 310px;   
+}
+
+h2 {
+    text-align: center;
+	font-size: 1.5rem;
+    color:#4E91DD;
+}
+
+.hero {
+    position: relative;
+    display: block;
+    height: 270px;
+    width: 940px;
+    border: 15px solid green;
+}
+
+.sociallinks a img{
+    height: 60px;
+    width: 60px;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero article img{
+    position: absolute;
+    top: -200px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    top: -20px;
+    right: 271px;
+    position: absolute;
+    color: #eef;
+    background: #4E91DD ;
+    text-align: center;
+}
+
+.hero article p{
+    top: -220px;
+    left: 0;
+    position: absolute;
+    width: 850px;
+    height: 104px;
+    color: #eef;
+    background: #267D7B80 ;
+    text-align: right;
+    padding-left: 90px;
+}
