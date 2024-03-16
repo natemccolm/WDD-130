@@ -10,9 +10,9 @@
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Nunito Sans', sans-serif;
 
-    --nav-background-color: var(#4E91DD);
+    --nav-background-color: var(--accent1-color);
     --nav-link-color: #eef;
-    --nav-hover-link-color:  var(#4E91DD);
+    --nav-hover-link-color:  var(--accent2-color);
     --nav-hover-background-color:#eef;
 }
 
