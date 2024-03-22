@@ -13,8 +13,8 @@ nav{
 }
 
 header, .grid, footer {
-    margin: 0 auto;
     max-width: 840px;
+    margin: 0 auto;
 }
 
 nav a {
@@ -28,7 +28,10 @@ nav a {
 
 h1  {
     color: steelblue;
-    bottom: 1px;
+    border-bottom: 1px;
+    border-color: steelblue;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
 }
 
 img{
@@ -45,7 +48,6 @@ p {
 }
 
 main {
-    max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
 }
@@ -72,8 +74,8 @@ main img {
 
 aside h2 {
     position: absolute;
-    top:  47px;
-    left: 150px;
+    top:  26px;
+    left: 100px;
 }
 
 footer{
