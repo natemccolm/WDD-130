@@ -72,7 +72,7 @@ h2 {
 
 .hero {
     position: relative;
-    display: block;
+    display: flex;
     height: 270px;
     width: 940px;
     border: 15px solid green;
@@ -117,12 +117,11 @@ h1 {
 }
 
 .history{
-    display: block;
+    
+    display: inline-block;
+    align-items: center;
 }
 
-.history p{
-    text-wrap: wrap;
-}
 
 .history img{
     float:none;
@@ -131,12 +130,10 @@ h1 {
     justify-content: center;
 }
 
-.five_pics {
-    grid-area:1/1/2/6;
+.five_pics img{
     display: flex;
-    max-width: auto;
-    max-height: auto;
-    text-align:fit-content;
-    align-content: flex-start;
-    justify-content: left;
+    justify-content:center;
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
 }
