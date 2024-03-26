@@ -31,19 +31,19 @@ body {
 .header-links a{
     display: block;
 	color: navy;
-	padding: 20px;
+	padding: 20px 20px;
+    text-align: center;
 	text-decoration: none;
-    justify-content:end;
-    flex: 1 1 100%;
+    
+
 }
 
 header {
-    margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo takes auto width, Navigation takes the remaining space */
+    align-items: center; /* Center content vertically */
+    /*background-color: #f8f9f9; /* Adjust the background color */
+    padding: 10px;
 }
 
 main {
@@ -81,11 +81,13 @@ h2 {
 .sociallinks a img{
     height: 60px;
     width: 60px;
+    justify-content: space-around;
 }
 
 .sociallinks a {
     text-decoration: none;
 }
+
 
 .hero article img{
     position: absolute;
@@ -118,8 +120,10 @@ h1 {
 
 .history{
     
-    display: inline-block;
+    display: grid;
     align-items: center;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -130,10 +134,24 @@ h1 {
     justify-content: center;
 }
 
-.five_pics img{
-    display: flex;
+.five_pics {
+    display: grid;
     justify-content:center;
     flex-direction: row;
-    height: 200px;
-    width: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+.five_pics img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
