@@ -14,13 +14,14 @@
         <h1>
             Basic HTML and CSS Quiz        
          </h1> 
-        <table>
+        <form>
+         <table>
             <tbody>
-                <tr><td>1. What does CSS stand for?</td></tr>
-                <tr><td><input name="q1" id="q1"></td></tr>
-                <tr><td>2. How are id and class attributes selected in CSS?</td></tr>
+                <tr><td><label for="q1">1. What does CSS stand for?</label></td></tr>
+                <tr><td><input type="text" name="q1" id="q1"></td></tr>
+                <tr><td><label for="q2">2. How are id and class attributes selected in CSS?</label></td></tr>
                 <tr><td><textarea name="q2" id="q2"></textarea></td></tr>
-                <tr><td> <label> 3. Which of the following is a valid CSS comment?</label></td></tr>
+                <tr><td> <label for="q3"> 3. Which of the following is a valid CSS comment?</label></td></tr>
                 <tr><td><select name="q3" id="q3">
                             <option value="" selected disabled>Choose One</option>
                             <option value="moo">Moo</option>
@@ -28,12 +29,12 @@
                             <option value="Sue">Sue</option>
                             <option value="poo">Poo</option>
                         </select></td></tr>
-                <tr><td>4. What is the bottom margin given this declaration?</td></tr>
-                <tr><td><input id="q4" name="q4"></td></tr>
+                <tr><td><label for="q4">4. What is the bottom margin given this declaration?</label></label></td></tr>
+                <tr><td><input type='number' id="q4" name="q4"></td></tr>
                 <tr><td><input type="submit" value="submit"></td></tr>
             </tbody>
         </table>
-        
+        </form>
      </body>
-     
+    </html>
 
