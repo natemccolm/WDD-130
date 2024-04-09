@@ -111,8 +111,8 @@ h1 {
     top: -20px;
     right: 271px;
     position: absolute;
-    color: #eef;
-    background: #4E91DD ;
+    color: #414179;
+    background: #2ecdfd ;
     text-align: center;
 }
 
@@ -122,8 +122,8 @@ h1 {
     position: absolute;
     width: 850px;
     height: 104px;
-    color: #eef;
-    background: #267D7B80 ;
+    color: #3b3b61;
+    background: #fafafa80 ;
     text-align: right;
     padding-left: 90px;
 }
