@@ -26,14 +26,16 @@ body {
 	list-style: none;
     align-items: center;
     text-align: right;
+ 
 }
 
 .header-links a{
     display: block;
-	color: navy;
+	color: rgb(255, 255, 255);
 	padding: 20px 20px;
     text-align: center;
 	text-decoration: none;
+    font-size: xx-large;
     
 
 }
@@ -44,6 +46,12 @@ header {
     align-items: center; /* Center content vertically */
     /*background-color: #f8f9f9; /* Adjust the background color */
     padding: 10px;
+    
+    /*background-color: #03524E;*/
+    background-image: url(../images/chattooga-river.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
 }
 
 main {
@@ -73,10 +81,12 @@ h2 {
 .hero {
     position: relative;
     display: flex;
-    height: 270px;
+    height: 274px;
     width: 940px;
     border: 15px solid green;
 }
+
+
 
 .sociallinks a img{
     height: 60px;
@@ -158,4 +168,17 @@ footer {
 
   #wireframe {
     color:floralwhite;
+}
+
+.five_pics {
+    display: grid;
+    justify-content:center;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.three_pics img{
+    max-width: 300px;
+    max-height: 300px;
+    float:left
 }
