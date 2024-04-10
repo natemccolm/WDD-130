@@ -47,8 +47,7 @@ header {
     /*background-color: #f8f9f9; /* Adjust the background color */
     padding: 10px;
     
-    /*background-color: #03524E;*/
-    background-image: url(../images/chattooga-river.jpg);
+    background-color: #03524E;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -217,10 +216,10 @@ footer {
 }
 
 .home_pics img{
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #home_footer{
-    margin-top: 300px;
+    margin-top: 350px;
 }
