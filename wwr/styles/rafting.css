@@ -72,7 +72,7 @@ article {
 h2 {
     text-align: center;
 	font-size: 1.5rem;
-    color:#4E91DD;
+    color:#2b6db9;
     flex-wrap: nowrap;
     flex-direction: row;
 }
@@ -185,7 +185,6 @@ footer {
 .three_pics img{
     max-width: 300px;
     max-height: 300px;
-    grid: 1,2,2;
 
 }
 
