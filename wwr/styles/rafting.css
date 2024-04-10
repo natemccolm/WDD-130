@@ -50,7 +50,7 @@ header {
     /*background-color: #03524E;*/
     background-image: url(../images/chattooga-river.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width:100%;
 }
 
@@ -177,8 +177,40 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.three_pics{
+    max-width:100%;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    grid-column: 2/3;
+
+}
+
 .three_pics img{
     max-width: 300px;
     max-height: 300px;
-    float:left
+    grid: 1,2,2;
+
+}
+
+.trip_pics_1 {
+    grid-column: 1/2;
+
+}
+
+.trip_pics_2 {
+    grid-column: 1/2;
+
+}
+
+.trip_pics_3 {
+    grid-column: 1/2;
+
+}
+
+#trips_footer{
+    margin-top: 300px;
 }
