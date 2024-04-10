@@ -170,12 +170,6 @@ footer {
     color:floralwhite;
 }
 
-.five_pics {
-    display: grid;
-    justify-content:center;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
 .three_pics{
     max-width:100%;
@@ -213,4 +207,16 @@ footer {
 
 #trips_footer{
     margin-top: 300px;
+}
+
+.home_pics {
+    display: grid;
+    justify-content:center;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home_pics img{
+    max-width: 100px;
+    max-height: 100px;
 }
